@@ -1,5 +1,3 @@
-# yield-shield
- (cd "$(git rev-parse --show-toplevel)" && git apply --3way <<'EOF' 
 diff --git a/README.md b/README.md
 index 61aa14a2275df19c1749a0d3f6a498e1b253cfb7..d982e583284dd9a42cd192339c7aed390da959ed 100644
 --- a/README.md
@@ -197,6 +195,3 @@ index 61aa14a2275df19c1749a0d3f6a498e1b253cfb7..d982e583284dd9a42cd192339c7aed39
 +
 +## License
 +MIT
- 
-EOF
-)
